@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sikan Jobs</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="title">Sikan Jobs</h1>
+        <nav>
+            <button id="loginBtn" class="animated-button">Login / Sign Up</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="options">
+            <button class="option animated-button" onclick="navigate('trabajos')">Trabajos GG</button>
+            <button class="option animated-button" onclick="navigate('id')">ID Personalizado y Más</button>
+            <button class="option animated-button" onclick="navigate('disenos')">Diseños Personalizados</button>
+        </section>
+
+        <section class="social">
+            <a href="#" class="social-icon telegram animated-button">Telegram</a>
+            <a href="#" class="social-icon discord animated-button">Discord</a>
+            <a href="#" class="social-icon instagram animated-button">Instagram</a>
+            <a href="#" class="social-icon youtube animated-button">YouTube</a>
+        </section>
+    </main>
+
+    <div id="cart" class="animated-cart">
+        🛒 <span id="cartCount">0</span>
+    </div>
+</body>
+</html>
